@@ -15,6 +15,5 @@ const sumAll = function(number1 , number2) {
     if(number1 < 0) return "ERROR";
     return sumRange(number1 , number2);
 };
-console.log(sumAll(5 , 1));
 // Do not edit below this line
 module.exports = sumAll;
